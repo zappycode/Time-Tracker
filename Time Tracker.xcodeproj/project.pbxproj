@@ -19,6 +19,9 @@
 		014085211D8B827400942399 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014085201D8B827400942399 /* InterfaceController.swift */; };
 		014085231D8B827400942399 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014085221D8B827400942399 /* ExtensionDelegate.swift */; };
 		014085251D8B827400942399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014085241D8B827400942399 /* Assets.xcassets */; };
+		01A386E31D9B42E5004D4707 /* TimeTableInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A386E21D9B42E5004D4707 /* TimeTableInterfaceController.swift */; };
+		01A386E51D9B4593004D4707 /* ClockInOutRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A386E41D9B4593004D4707 /* ClockInOutRowController.swift */; };
+		01A386E71D9B4AE5004D4707 /* DetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A386E61D9B4AE5004D4707 /* DetailInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,9 @@
 		014085221D8B827400942399 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		014085241D8B827400942399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		014085261D8B827400942399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01A386E21D9B42E5004D4707 /* TimeTableInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableInterfaceController.swift; sourceTree = "<group>"; };
+		01A386E41D9B4593004D4707 /* ClockInOutRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockInOutRowController.swift; sourceTree = "<group>"; };
+		01A386E61D9B4AE5004D4707 /* DetailInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +112,6 @@
 				014084FC1D8B827400942399 /* Time Tracker */,
 				014085101D8B827400942399 /* Time Tracker WatchKit App */,
 				0140851F1D8B827400942399 /* Time Tracker WatchKit Extension */,
-				014084FB1D8B827400942399 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +123,7 @@
 				0140851B1D8B827400942399 /* Time Tracker WatchKit Extension.appex */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		014084FC1D8B827400942399 /* Time Tracker */ = {
@@ -147,9 +153,13 @@
 			isa = PBXGroup;
 			children = (
 				014085201D8B827400942399 /* InterfaceController.swift */,
+				01A386E21D9B42E5004D4707 /* TimeTableInterfaceController.swift */,
+				01A386E41D9B4593004D4707 /* ClockInOutRowController.swift */,
+				01A386E61D9B4AE5004D4707 /* DetailInterfaceController.swift */,
 				014085221D8B827400942399 /* ExtensionDelegate.swift */,
 				014085241D8B827400942399 /* Assets.xcassets */,
 				014085261D8B827400942399 /* Info.plist */,
+				014084FB1D8B827400942399 /* Products */,
 			);
 			path = "Time Tracker WatchKit Extension";
 			sourceTree = "<group>";
@@ -302,7 +312,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				014085231D8B827400942399 /* ExtensionDelegate.swift in Sources */,
+				01A386E31D9B42E5004D4707 /* TimeTableInterfaceController.swift in Sources */,
 				014085211D8B827400942399 /* InterfaceController.swift in Sources */,
+				01A386E51D9B4593004D4707 /* ClockInOutRowController.swift in Sources */,
+				01A386E71D9B4AE5004D4707 /* DetailInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,6 +568,7 @@
 				0140852B1D8B827400942399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0140852D1D8B827400942399 /* Build configuration list for PBXNativeTarget "Time Tracker WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +577,7 @@
 				0140852F1D8B827400942399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		014085311D8B827400942399 /* Build configuration list for PBXNativeTarget "Time Tracker" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +586,7 @@
 				014085331D8B827400942399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
